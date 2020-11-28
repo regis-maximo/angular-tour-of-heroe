@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+}
+
+.grid-pad {
+    grid-template-columns: repeat(auto-fit, 100px);
+}
+
+.hero {
+    max-width: 150px;
+    height: 100px;
+    background-color: blueviolet;
+    text-align: center;
+    line-height: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.hero:hover {
+    background-color: rgb(217, 185, 247);
+}
+
+a {
+    text-decoration: none;
+}
